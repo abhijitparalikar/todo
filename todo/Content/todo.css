@@ -1,0 +1,84 @@
+﻿body{
+    font-family:Cambria;
+}
+.content {
+    float: none;    
+}
+
+.headerMiddle {
+    padding: 0px 2px 0px 5px;
+    background-color: #EAEDED;
+}
+
+.header {
+   padding-left:2px;
+   padding-right:2px;
+   display: inline-block;
+}
+
+.headerEndLeft {
+    padding-right:2px;
+    background-color: #EAEDED;
+    border-top-left-radius: 10px;
+    float: left;
+}
+
+.headerEndRight {
+    background-color: #EAEDED;
+    border-top-right-radius: 10px;
+    float: right;
+}
+
+.Modify {
+    display: inline-block;
+    align-content:center;    
+}
+
+.details {
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    margin-bottom: 2px;
+    
+}
+.detailsCellLeft{
+    padding-right: 0px;
+}
+.detailsCell {
+    padding-left: 2px;
+    padding-right: 2px;
+    background-color: #EBF5FB;
+    min-height: 22px;
+}
+
+.completed{
+    opacity:0.5;
+}
+
+#newtask{
+    display:none;
+}
+#edittask {
+    display: none;
+}
+
+.ActionItem {
+    padding: 0px 0px 10px 0px !important;
+}
+
+.dialoglabel{
+    width: 30%;
+    font-family: Cambria;
+    font-size:small;
+    display: inline-block;
+    padding: 0px 0px 2px 0px;
+    margin: 0px;
+}
+
+.diagloginput{
+    width: 60%;
+    display:inline-block;
+    margin: 0px;
+    padding: 0px;
+}
